@@ -1,5 +1,5 @@
 # Sprint Challenge: Authentication - Dad Jokes
-
+**BASE URL** https://dadjokess.herokuapp.com/
 ## Description
 
 In this challenge, you build a real wise-guy application. _Dad jokes_ are all the rage these days. Currently the application is trying to receive some `Dad Jokes`, however we are locked out.
@@ -39,11 +39,11 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is the purpose of using _sessions_?
-
+to persist log in authentication. can keep record of active sessions in db
 - [ ] What does bcrypt do to help us store passwords in a secure manner.
-
+it hashes our password  
 - [ ] What does bcrypt do to slow down attackers?
-
+Brcypt hashes out the passwords so that when the respond comes in the console or in the authorization it’s different every time. // - from 1:1 - When you pick the number as 8/10 it takes a few seconds for the computer to take in the password instead of a few milliseconds.
 - [ ] What are the three parts of the JSON Web Token?
 
 ## Minimum Viable Product
